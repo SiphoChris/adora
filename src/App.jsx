@@ -1,11 +1,13 @@
 import './App.css'
 
+import Nav from './components/Nav'
+
 function App() {
 
   return (
-    <div>
-      hello
-    </div>
+    <header className='pt-8'>
+      <Nav/>
+    </header>
   )
 }
 

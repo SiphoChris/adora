@@ -8,3 +8,14 @@
   margin: 0 auto;
 }
 
+@layer base {
+  * {
+    @apply text-gray-800
+  }
+}
+
+@layer utilities {
+  .nav-link {
+    @apply flex gap-2 font-medium
+  }
+}
