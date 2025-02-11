@@ -1,9 +1,10 @@
 import { ChevronDown } from "lucide-react";
+import Logo from './Logo'
 
 function Nav() {
   return (
     <nav className="flex justify-between shadow-md rounded-full w-1/2 py-6 px-12 mx-auto">
-      <img src="#" alt="logo" />
+      <Logo />
       <ul className="flex gap-8">
         <li className="nav-link">
           <a href="#">Product</a>

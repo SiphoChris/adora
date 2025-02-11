@@ -14,8 +14,31 @@
   }
 }
 
+@layer components {
+  button {
+    @apply py-2 px-6 rounded-xl font-semibold
+  }
+}
+
 @layer utilities {
   .nav-link {
     @apply flex gap-2 font-medium
   }
 }
+
+/* ------------------ ICONS ----------------------- */
+.lucide {
+  /* color: #ffadff; */
+  /* width: 56px; */
+  height: 1.5rem;
+  stroke-width: 1px;
+}
+
+/* -------------------- HERO ------------------------- */
+#preview-bg {
+  background-image: url("https://www.adora.so/_next/image?url=https%3A%2F%2Fd2n74cft8djnwm.cloudfront.net%2Fwp-content%2Fuploads%2F2025%2F02%2F10123312%2FOil-Painting-Blue-Mountains-Twilight-1-1.png&w=2048&q=100");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
