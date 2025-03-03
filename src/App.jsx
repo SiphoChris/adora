@@ -1,21 +1,10 @@
 import './App.css'
-
-import Nav from './components/Nav'
-import Hero from './components/Hero'
-import References from './components/References'
+import HomePage from './pages/index'
 
 function App() {
 
   return (
-    <>
-    <header className='pt-8'>
-      <Nav/>
-      <Hero />
-    </header>
-    <main>
-      <References />
-    </main>
-    </>
+    <HomePage/>
   )
 }
 

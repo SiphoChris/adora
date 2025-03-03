@@ -14,9 +14,9 @@ function References() {
           className="mx-auto"
         />
       </div>
-      <div className="mt-16 flex justify-evenly">
+      <div className="mt-16 flex justify-evenly items-center">
         <div className="text-left">
-          <span className="inline-flex gap-2 text-sm align-middle text-[#592eff] border-2 border-[#592eff] py-2 px-6 rounded-xl font-semibold">
+          <span className="inline-flex gap-2 text-sm text-[#592eff] border-2 border-[#592eff] py-2 px-6 rounded-xl font-semibold">
           <RealtimeSVG/>
             REAL-TIME
           </span>
