@@ -4,16 +4,16 @@ function Hero() {
   return (
     <section className="mt-24">
       <div className="flex flex-col gap-8">
-        <h1 className="text-primaryColor font-bold text-[62px] tracking-tighter text-center leading-[1.2] relative inline-block">
+        <h1 className="text-primaryColor font-bold text-4xl md:text-[62px] tracking-tighter text-center leading-[1.2] relative inline-block">
           Visualize your <span className="relative inline-block text-primaryColor">
             entire
-            <span className="absolute top-16 left-0 w-full bottom-0">
-              <UnderlineStroke />
+            <span className="absolute top-8 md:top-16 left-0 md:w-full bottom-0">
+              <UnderlineStroke className="w-24 md:w-full"/>
             </span>
           </span>  
           <br /> product experience
         </h1>
-        <p className="mx-auto w-[60ch] text-xl text-center">
+        <p className="mx-auto md:w-[60ch] text-xl text-center">
           Every user-journey, every screen, every interaction. Your entire
           product mapped for you in real-time, overlaid with analytics and
           replays.
