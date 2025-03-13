@@ -11,7 +11,7 @@ function References() {
         <img
           src="https://d2n74cft8djnwm.cloudfront.net/wp-content/uploads/2025/02/10123322/newlogos-desktop.svg"
           alt="reference image"
-          className="mx-auto w-full"
+          className="mx-auto w-full md:w-8/12"
         />
       </div>
       <div className="mt-16 flex justify-evenly items-center max-md:flex-col max-md:gap-8">
